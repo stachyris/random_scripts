@@ -1,0 +1,1 @@
+~/softs/ncbi-blast-2.14.1+/bin/blastn -db /Users/vinaykl/EBB/ZF/ncbi_dataset/data/GCF_003957565.2/ZF_all_chrom.db -query /Users/vinaykl/EBB/ref/ncbi_dataset/data/GCA_009812075.1/GCA_009812075.1_Ss_LA_1.0_genomic.fna -max_target_seqs 5 -max_hsps 1 -evalue 1e-10 -outfmt "7 qseqid sseqid pident length qcovs qlen qstart qend evalue bitscore" -out ./Blast_Ss_to_ZF_db.out.txt
